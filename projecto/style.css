@@ -1,0 +1,94 @@
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  /* parameters for the header section */
+}
+
+
+
+.logo_place_header {
+  display: flex;
+  top: 30px;
+  left: 64px;
+  max-width: 100%;
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  
+}
+
+
+.header__title {
+  line-height: 96PX;
+  font-size: 102px;
+  font-weight: bold;
+  display: flex;
+}
+
+
+
+
+.header__subtitle {
+position: absolute;
+height: 100vh;
+line-height: 25px;
+font-size: 18px;
+font-weight: normal;
+display: flex;
+}
+
+
+.header__main-illustration {
+  position: absolute;
+  max-width: 100%;
+  bottom: 0;
+    right: 0;
+    display: flex;
+    object-fit: contain;
+  width: 608px;
+  height: 756px;
+  z-index: 1;
+  }
+
+  .header__square {
+    position: absolute;
+  top: 20px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2F80ED;
+  display: flex;
+  }
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* including elements with key-value modifiers */
+
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+} 
+
+
